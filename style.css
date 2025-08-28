@@ -34,6 +34,9 @@ main{
     gap: 1em;
     padding: 1em;
 }
+.dashboard h2{
+    font-size: 1.6em;
+}
 
 .ri-dashboard-fill{
     font-size: 2.5em;
@@ -52,9 +55,93 @@ li{
 }
 
 .profile p{
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 0 .8em;
+    font-weight: 600;
 }
 .profile i{
     font-size: 1.1em;
+}
+
+header{
+    padding: 1em 5em;
+}
+
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    width: 50vw;
+}
+.ri-search-line{
+padding-right:  1.5em;
+font-size: 1.3em;
+}
+.search > input{
+    border: none;
+    border-radius: 2em;
+    background-color: rgba(128, 128, 128, 0.304);
+    height: 30px;
+    width: 75%;
+    padding: 0 1em;
+    font-size: 1em;
+}
+.search > input:focus{
+    outline: none;
+    border:2px solid  rgba(164, 164, 225, 0.403);
+}
+.profile-shortcuts{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile-shortcuts div,img{
+    margin: 0 1em;
+}
+.profile-picture{
+    border-radius: 50%;
+    width: 2.9em;
+}
+.ri-notification-3-line{
+    font-size: 1.5em;
+}
+
+.header-bottom{
+    padding-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name-details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.def p{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.def h3{
+    font-size: 1.4em;
+}
+
+.name-details img{
+    border-radius: 50%;
+    width: 4em;
+}
+
+.buttons{
+    display: flex;
+    gap: 2em;
+}
+.buttons button{
+    border: none;
+    border-radius: 20px;
+    padding: .5em 2em;
+    background-color: rgb(110, 172, 248);
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
 }
