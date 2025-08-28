@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: Segoe UI;
 }
-
+body{
+    height: 100vh;
+}
 .container{
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: 1fr 3fr;
     grid-template-columns: 1fr 4fr;
 }
 
@@ -64,7 +66,7 @@ li{
 }
 
 header{
-    padding: 1em 5em;
+    padding: 1em 4em;
 }
 
 .header-top{
