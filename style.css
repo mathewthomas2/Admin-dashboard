@@ -4,10 +4,12 @@
     box-sizing: border-box;
     font-family: Segoe UI;
 }
-body,html{
-    height: 100%;
-    overflow-y: auto;
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
+
 .container{
     height: 100vh;
     width: 100vw;
